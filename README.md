@@ -67,7 +67,7 @@ When you login you should see the Name\\Administrator
 
 ![image](https://github.com/user-attachments/assets/20f3c6e8-949e-4bf9-b469-d0c9b5fd04c4)
 
-# Creating some Users and Organizational Units
+## Creating  Users and Organizational Units
 
 &nbsp;
 
@@ -112,3 +112,41 @@ Now we have a user in the It department. We can create or copy more and also do 
 &nbsp;
 
 &nbsp;
+
+
+# Adding workstations 
+Go to My PC > Properties > Advanced System Settings
+
+Choose "Computer name" > "Change"
+
+&nbsp;
+
+Choose "domain" then enter the name of domain:
+
+![image](https://github.com/user-attachments/assets/eb5ece5b-0bbf-405c-b6d2-e41c83ae2d36)
+
+&nbsp;
+
+If you get this message that means the machine does not know how to resolve \*.local:
+
+![image](https://github.com/user-attachments/assets/fd9c4ad4-4ed2-45d6-9501-a48a86daa776)
+
+&nbsp;
+
+On the change adapter options for IPv4, you must change the DNS server to whatever the IP of the domain controller is.
+
+![image](https://github.com/user-attachments/assets/e528749d-aa7f-4fe9-b27c-76efe696f2ad)
+
+Making sure the configurations were set properly with "ipconfig":
+
+![image](https://github.com/user-attachments/assets/5cbbf18e-4161-47d0-9997-e7edc9c5b1ed)
+
+Now try to add the workstation to the domain.
+
+&nbsp;
+
+You can use the credentials of the ADMINISTRATOR account of the server, as that account will have the proper permissions.
+
+![image](https://github.com/user-attachments/assets/d0d77693-df76-44be-a694-e9d244ebe5b0)
+
+![image](https://github.com/user-attachments/assets/a8a60d6e-147c-4cd8-a232-0a5a84bbade7)
