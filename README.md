@@ -114,7 +114,7 @@ Now we have a user in the It department. We can create or copy more and also do 
 &nbsp;
 
 
-# Adding workstations 
+# 2. Adding workstations to the domain 
 Go to My PC > Properties > Advanced System Settings
 
 Choose "Computer name" > "Change"
